@@ -1,4 +1,4 @@
-package com.sungardhe.demo.portlets.helloportlet;
+package edu.yourschool.luminis.portlets.helloportlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

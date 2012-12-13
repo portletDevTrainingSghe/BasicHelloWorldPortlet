@@ -7,29 +7,6 @@
 
     <description>The hello portlet</description>
 
-
-    <servlet>
-        <servlet-name>helloportlet</servlet-name>
-        <display-name>helloportlet Portlet</display-name>
-        <description>Generated Portlet Wrapper</description>
-        <servlet-class>org.apache.pluto.core.PortletServlet</servlet-class>
-
-        <init-param>
-            <param-name>portlet-class</param-name>
-            <param-value>com.sungardhe.demo.portlets.helloportlet</param-value>
-        </init-param>
-
-        <init-param>
-            <param-name>portlet-guid</param-name>
-            <param-value>yourportlet.helloportlet</param-value>
-        </init-param>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>helloportlet</servlet-name>
-        <url-pattern>/helloportlet/*</url-pattern>
-    </servlet-mapping>
-
     <taglib>
         <taglib-uri>http://java.sun.com/portlet</taglib-uri>
         <taglib-location>/WEB-INF/tld/portlet.tld</taglib-location>
